@@ -92,6 +92,12 @@
   $ref: "./paths/files.yaml#/paths/~1file~1{fileId}~1{versionId}~1{fileType}~1start"
 "/file/{fileId}/{versionId}/{fileType}/status":
   $ref: "./paths/files.yaml#/paths/~1file~1{fileId}~1{versionId}~1{fileType}~1status"
+"/file/image":
+  $ref: "./paths/files.yaml#/paths/~1file~1image"
+"/icon":
+  $ref: "./paths/files.yaml#/paths/~1icon"
+"/gallery":
+  $ref: "./paths/files.yaml#/paths/~1gallery"
 
 # friends
 
